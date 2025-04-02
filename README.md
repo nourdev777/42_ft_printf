@@ -22,10 +22,6 @@
 - Uses variadic arguments (`va_list`) to process inputs dynamically.  
 - Returns the number of characters printed, just like the original `printf()`.
 
-### Bonus Part *(Optional, if implemented)*  
-- Supports flags: `-`, `0`, `.`, and minimum field width.  
-- Handles additional flags: `#`, `+`, and space.
-
 ---
 
 ## 🚀 How to Use
@@ -39,10 +35,7 @@ git clone https://github.com/nourdev777/42_ft_printf.git
 ```bash
 make
 ```
-For bonuses (if implemented):
-```bash
-make bonus
-```
+
 Clean up:
 ```bash
 make fclean
