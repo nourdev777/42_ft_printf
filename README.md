@@ -2,13 +2,15 @@
 
 ---
 
-### 🌟 About the Project
+## 🌟 About the Project
+
 `42_ft_printf` is my reimplementation of the classic C `printf()` function, created as part of the **42 Abu Dhabi Common Core**. This project challenged me to handle variable arguments and mimic the behavior of the original `printf()` without its buffer management. It’s a powerful tool I can now add to my `libft` for future projects!
 
 ---
 
-### 🛠️ Features
-#### Mandatory Part
+## 🛠️ Features
+
+### Mandatory Part
 - Handles the following conversions:  
   - `%c` — Character  
   - `%s` — String  
@@ -20,38 +22,36 @@
 - Uses variadic arguments (`va_list`) to process inputs dynamically.  
 - Returns the number of characters printed, just like the original `printf()`.
 
-#### Bonus Part *(Optional, if implemented)*  
+### Bonus Part *(Optional, if implemented)*  
 - Supports flags: `-`, `0`, `.`, and minimum field width.  
 - Handles additional flags: `#`, `+`, and space.
 
 ---
 
-### 🚀 How to Use
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/nourdev777/42_ft_printf.git
+## 🚀 How to Use
 
-Compile the library:
-bash
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/nourdev777/42_ft_printf.git
+```
 
-Collapse
-
-Wrap
-
-Copy
+### 2️⃣ Compile the Library
+```bash
 make
-For bonuses (if implemented): make bonus
-Clean up: make fclean
-Test the Library:
-Create a file named main.c with the following test code:
+```
+For bonuses (if implemented):
+```bash
+make bonus
+```
+Clean up:
+```bash
+make fclean
+```
 
-c
+### 3️⃣ Test the Library
+Create a file named `main.c` with the following test code:
 
-Collapse
-
-Wrap
-
-Copy
+```c
 #include "ft_printf.h"
 #include <stdio.h>
 #include <limits.h>
@@ -112,23 +112,28 @@ int main(void)
 
     return (0);
 }
-Compile and run the test:
-bash
+```
 
-Collapse
-
-Wrap
-
-Copy
+### 4️⃣ Compile and Run the Test
+```bash
 gcc -Wall -Wextra -Werror main.c libftprintf.a && ./a.out
-💡 What I Learned
-Working with variadic arguments (va_list, va_start, va_arg, va_end).
-Managing string formatting and conversion specifiers.
-Handling memory allocation with malloc and free to avoid leaks.
-Writing clean and modular C code for extensibility.
-Using Makefiles to build a library (libftprintf.a).
-📜 Original Task
-Check out the full assignment details:
-(ft_printf_assignment.pdf)
+```
 
-Built with precision at 42 Abu Dhabi! ☕🚀
+---
+
+## 💡 What I Learned
+- Working with variadic arguments (`va_list`, `va_start`, `va_arg`, `va_end`).
+- Managing string formatting and conversion specifiers.
+- Handling memory allocation with `malloc` and `free` to avoid leaks.
+- Writing clean and modular C code for extensibility.
+- Using Makefiles to build a library (`libftprintf.a`).
+
+---
+
+## 📜 Original Task
+Check out the full assignment details: [here](ft_printf_assignment.pdf)
+
+---
+
+Built with precision at **42 Abu Dhabi**! ☕🚀
+
