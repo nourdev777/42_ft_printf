@@ -117,7 +117,6 @@ gcc -Wall -Wextra -Werror main.c libftprintf.a && ./a.out
 ## 💡 What I Learned
 - Working with variadic arguments (`va_list`, `va_start`, `va_arg`, `va_end`).
 - Managing string formatting and conversion specifiers.
-- Handling memory allocation with `malloc` and `free` to avoid leaks.
 - Writing clean and modular C code for extensibility.
 - Using Makefiles to build a library (`libftprintf.a`).
 
